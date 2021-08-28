@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8426E17826919FEB00C1E060 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426E17626919FEB00C1E060 /* TagCollectionViewCell.swift */; };
+		8426E17926919FEB00C1E060 /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8426E17726919FEB00C1E060 /* TagCollectionViewCell.xib */; };
+		8426E17C2691A04B00C1E060 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426E17B2691A04B00C1E060 /* UICollectionViewCell+Extension.swift */; };
 		84334DF226909D6500631A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84334DF126909D6500631A9B /* AppDelegate.swift */; };
 		84334DF426909D6500631A9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84334DF326909D6500631A9B /* SceneDelegate.swift */; };
-		84334DF626909D6500631A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84334DF526909D6500631A9B /* ViewController.swift */; };
+		84334DF626909D6500631A9B /* TakeNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84334DF526909D6500631A9B /* TakeNotesViewController.swift */; };
 		84334DF926909D6500631A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84334DF726909D6500631A9B /* Main.storyboard */; };
 		84334DFC26909D6500631A9B /* Note_Me.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84334DFA26909D6500631A9B /* Note_Me.xcdatamodeld */; };
 		84334DFE26909D6A00631A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84334DFD26909D6A00631A9B /* Assets.xcassets */; };
 		84334E0126909D6A00631A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84334DFF26909D6A00631A9B /* LaunchScreen.storyboard */; };
+		84762D8C26914FDE00B0E1E9 /* MarkerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84762D8A26914FDE00B0E1E9 /* MarkerCollectionViewCell.swift */; };
+		84762D8D26914FDE00B0E1E9 /* MarkerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84762D8B26914FDE00B0E1E9 /* MarkerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8426E17626919FEB00C1E060 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		8426E17726919FEB00C1E060 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
+		8426E17B2691A04B00C1E060 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		84334DEE26909D6500631A9B /* Note-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84334DF126909D6500631A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84334DF326909D6500631A9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84334DF526909D6500631A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84334DF526909D6500631A9B /* TakeNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeNotesViewController.swift; sourceTree = "<group>"; };
 		84334DF826909D6500631A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84334DFB26909D6500631A9B /* Note_Me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Note_Me.xcdatamodel; sourceTree = "<group>"; };
 		84334DFD26909D6A00631A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84334E0026909D6A00631A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84334E0226909D6A00631A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84762D8A26914FDE00B0E1E9 /* MarkerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerCollectionViewCell.swift; sourceTree = "<group>"; };
+		84762D8B26914FDE00B0E1E9 /* MarkerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8426E17A26919FF300C1E060 /* TagCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8426E17626919FEB00C1E060 /* TagCollectionViewCell.swift */,
+				8426E17726919FEB00C1E060 /* TagCollectionViewCell.xib */,
+			);
+			path = TagCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		84334DE526909D6500631A9B = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +77,60 @@
 		84334DF026909D6500631A9B /* Note-Me */ = {
 			isa = PBXGroup;
 			children = (
+				84334E0826909D7500631A9B /* Delegate */,
+				84334E0926909D8800631A9B /* Controller */,
+				84334E0A26909D9800631A9B /* Storyboard */,
+				84334E0B26909DAE00631A9B /* Global */,
+			);
+			path = "Note-Me";
+			sourceTree = "<group>";
+		};
+		84334E0826909D7500631A9B /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				84334DF126909D6500631A9B /* AppDelegate.swift */,
 				84334DF326909D6500631A9B /* SceneDelegate.swift */,
-				84334DF526909D6500631A9B /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84334E0926909D8800631A9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84334DF526909D6500631A9B /* TakeNotesViewController.swift */,
+				84762D8E26914FE200B0E1E9 /* MarkerCollectionViewCell */,
+				8426E17A26919FF300C1E060 /* TagCollectionViewCell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84334E0A26909D9800631A9B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				84334DF726909D6500631A9B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84334E0B26909DAE00631A9B /* Global */ = {
+			isa = PBXGroup;
+			children = (
 				84334DFD26909D6A00631A9B /* Assets.xcassets */,
 				84334DFF26909D6A00631A9B /* LaunchScreen.storyboard */,
 				84334E0226909D6A00631A9B /* Info.plist */,
 				84334DFA26909D6500631A9B /* Note_Me.xcdatamodeld */,
+				8426E17B2691A04B00C1E060 /* UICollectionViewCell+Extension.swift */,
 			);
-			path = "Note-Me";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		84762D8E26914FE200B0E1E9 /* MarkerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84762D8A26914FDE00B0E1E9 /* MarkerCollectionViewCell.swift */,
+				84762D8B26914FDE00B0E1E9 /* MarkerCollectionViewCell.xib */,
+			);
+			path = MarkerCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84334E0526909D6A00631A9B /* Build configuration list for PBXNativeTarget "Note-Me" */;
 			buildPhases = (
+				84334E0C26909F9200631A9B /* ShellScript */,
 				84334DEA26909D6500631A9B /* Sources */,
 				84334DEB26909D6500631A9B /* Frameworks */,
 				84334DEC26909D6500631A9B /* Resources */,
@@ -130,20 +194,45 @@
 			files = (
 				84334E0126909D6A00631A9B /* LaunchScreen.storyboard in Resources */,
 				84334DFE26909D6A00631A9B /* Assets.xcassets in Resources */,
+				8426E17926919FEB00C1E060 /* TagCollectionViewCell.xib in Resources */,
+				84762D8D26914FDE00B0E1E9 /* MarkerCollectionViewCell.xib in Resources */,
 				84334DF926909D6500631A9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84334E0C26909F9200631A9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84334DEA26909D6500631A9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84334DF626909D6500631A9B /* ViewController.swift in Sources */,
+				84334DF626909D6500631A9B /* TakeNotesViewController.swift in Sources */,
 				84334DF226909D6500631A9B /* AppDelegate.swift in Sources */,
+				8426E17C2691A04B00C1E060 /* UICollectionViewCell+Extension.swift in Sources */,
 				84334DF426909D6500631A9B /* SceneDelegate.swift in Sources */,
+				8426E17826919FEB00C1E060 /* TagCollectionViewCell.swift in Sources */,
+				84762D8C26914FDE00B0E1E9 /* MarkerCollectionViewCell.swift in Sources */,
 				84334DFC26909D6500631A9B /* Note_Me.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +378,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Note-Me/Info.plist";
+				INFOPLIST_FILE = "Note-Me/Global/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +396,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Note-Me/Info.plist";
+				INFOPLIST_FILE = "Note-Me/Global/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
